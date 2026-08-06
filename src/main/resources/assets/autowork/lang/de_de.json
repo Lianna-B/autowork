@@ -32,7 +32,7 @@
   "item.autowork.redstone_charge": "Redstonekugel",
   "item.autowork.wrench": "Engländer",
   "item.autowork.dye_cartridge": "Farbstoffpatrone",
-  "item.autowork.template_card": "",
+  "item.autowork.template_card": "Vorlagenkarte",
 
   "block.autowork.can.info.n": "Nährwerte: %s",
   "block.autowork.can.info.s": "Sättigung: %s",
@@ -53,7 +53,7 @@
   "block.autowork.quartz_bulb": "Quarzlampe",
   "block.autowork.rotator": "Dreher",
   "block.autowork.carrier": "",
-  "block.autowork.templater": "",
+  "block.autowork.templater": "Vorlagenapplikator",
   "block.autowork.modular_carrier": "",
   "block.autowork.painter": "Färber",
   "block.autowork.holder": "Halter",
@@ -120,12 +120,12 @@
   "autowork.crushing_description": "",
   
   "itemhelp.autowork.wrench": "Es ist möglich, dass Maschinen – z. B. aufgrund von Abstürzen – einfrieren. Der Engländer kann sie zurücksetzen.",
-  "itemhelp.autowork.template_card": "",
+  "itemhelp.autowork.template_card": "Eine Vorlagenkarte wird vom Vorlagenapplikator benötigt. Mit Umschalt + Rechtsklick auf ein Lager kann eine Vorlage anhand dessen Inventars erstellt werden (dabei wird die Richtung berücksichtigt). Dann kann man sie im Vorlagenapplikator verwenden.",
 
   "item.autowork.template_card.sides": "Seiten",
   "item.autowork.template_card.items": "Gegenstände",
 
-  "blockhelp.autowork.templater.details": "",
+  "blockhelp.autowork.templater.details": "Versucht, Gegenstände nach einer bestimmten Vorlage zu übertragen (also in exakt dieselben Inventarplätze). Tut nichts, wenn nicht genügend Gegenstände vorhanden sind. Benötigt eine Vorlagenkarte.",
   
   "blockhelp.autowork.sculk_cell.details": "Speichert Erfahrung. Per Rechtsklick kannst du deine Erfahrung einlagern und mit Shift + Rechtsklick Erfahrung herausnehmen.",
 
@@ -151,15 +151,15 @@
   "blockhelp.autowork.rotator.front": "Block, der gedreht werden soll",
   "blockhelp.autowork.rotator.details": "Dreht den vorn anliegenden Block. Der Winkel kann per Rechtsklick eingestellt werden: 90°, 180° oder 270°.",
 
-  "blockhelp.autowork.redstone_coil.details": "",
-  "blockhelp.autowork.redstone_coil.side": "Redstone-Output",
+  "blockhelp.autowork.redstone_coil.details": "Erzeugt eine bestimmte Redstonesignalstärke, die per Rechtsklick eingestellt werden kann.",
+  "blockhelp.autowork.redstone_coil.side": "Redstone-Ausgabe",
 
-  "blockhelp.autowork.redstone_hub.side": "Redstone-Output bzw. -Input",
+  "blockhelp.autowork.redstone_hub.side": "Redstoneaus- bzw. -eingabe",
   "blockhelp.autowork.redstone_hub.front": "",
-  "blockhelp.autowork.redstone_hub.details": "",
-  "blockhelp.autowork.redstone_hub.none_mode": "",
-  "blockhelp.autowork.redstone_hub.input_mode": "",
-  "blockhelp.autowork.redstone_hub.output_mode": "",
+  "blockhelp.autowork.redstone_hub.details": "Alle Ausgabeseiten erzeugen ein Redstonesignal, wenn eine der Eingabeseiten ein Redstonesignal erhält. Der Modus kann per Rechtsklick geändert werden.",
+  "blockhelp.autowork.redstone_hub.none_mode": "NONE: Tut nichts.",
+  "blockhelp.autowork.redstone_hub.input_mode": "INPUT: Empfängt nur ein Signal.",
+  "blockhelp.autowork.redstone_hub.output_mode": "OUTPUT: Erzeugt nur ein Signal.",
 
   "blockhelp.autowork.holder.details": "Hält einen Gegenstand in sich. Falls der Gegenstand Flüssigkeiten, Energie oder andere Gegenstände enthalten kann, 'vermittelt' der Halter diese Fähigkeit durch den Block (funktioniert wahrscheinlich am besten in Kombination mit anderen Mods).",
   "blockhelp.autowork.holder.bottom": "Flüssigkeit, Gegenstand bzw. Energie, die an den Gegenstand übertragen werden soll",
