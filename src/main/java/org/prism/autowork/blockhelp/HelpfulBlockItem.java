@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.Block;
+import org.prism.autowork.ClientConfig;
 
 import java.util.List;
 
@@ -17,6 +18,7 @@ public class HelpfulBlockItem extends BlockItem {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> components, TooltipFlag tooltip) {
         super.appendHoverText(stack, context, components, tooltip);
+        if (!ClientConfig.BLOCKHELP_TOOLTIPS.get()) return;
         if (stack.getItem() instanceof BlockItem bi) {
             if (bi.getBlock() instanceof BlockHelpProvider prov) {
                 if (bi.getBlock() instanceof WarningProvider warnProv) {

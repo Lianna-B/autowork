@@ -94,6 +94,12 @@ public class CannerBlockEntity extends BlockEntity implements MenuProvider {
             }
         }
 
+        setChanged();
+        if (full == null) {
+            full = Items.AIR;
+        }
+        if (foodProps.isEmpty()) return;
+
         var can = new CanComponent(foodProps, full);
 
         level.setBlockAndUpdate(belowPos, ModBlocks.CAN.get().defaultBlockState());

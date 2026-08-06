@@ -10,6 +10,7 @@ import net.minecraft.world.item.DyeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
+import org.prism.autowork.ClientConfig;
 import org.prism.autowork.other.ModData;
 import org.prism.autowork.other.data.CartridgeComponent;
 
@@ -64,6 +65,8 @@ public class DyeCartridge extends Item {
     @Override
     public void appendHoverText(ItemStack cartridge, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         var component = cartridge.get(ModData.CARTRIDGE);
+        if (!ClientConfig.BLOCKHELP_TOOLTIPS.get()) return;
+
         if (component != null) {
             tooltipComponents.add(Component.empty().append(component.dye().getName(ItemStack.EMPTY)).withColor(component.color()));
             tooltipComponents.add(Component.translatable("item.autowork.dye_cartridge.uses", component.currentUses(), 64*8).withColor(0xb3b3b3));

@@ -11,6 +11,7 @@
   "autowork.configuration.sculkCellCapacity": "Sculk cell capacity",
   "autowork.configuration.sawBlockLimit": "Saw block limit",
   "autowork.configuration.sawBlockSpeed": "Saw block speed",
+  "autowork.configuration.blockhelpTooltips": "Show block help tooltips",
 
   "itemGroup.autowork": "Autowork",
 

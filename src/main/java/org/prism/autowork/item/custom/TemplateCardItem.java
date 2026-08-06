@@ -9,6 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.neoforged.neoforge.capabilities.Capabilities;
+import org.prism.autowork.ClientConfig;
 import org.prism.autowork.other.ModData;
 import org.prism.autowork.other.data.template_card.TemplateCardComponent;
 
@@ -33,7 +34,7 @@ public class TemplateCardItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext ctx, List<Component> components, TooltipFlag flag) {
         super.appendHoverText(stack, ctx, components, flag);
-
+        if (!ClientConfig.BLOCKHELP_TOOLTIPS.get()) return;
         boolean any = false;
 
         if (!flag.hasControlDown() && !flag.hasShiftDown()) {

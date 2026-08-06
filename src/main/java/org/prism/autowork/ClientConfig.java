@@ -13,5 +13,8 @@ public class ClientConfig {
     public static final ModConfigSpec.BooleanValue HOLDER_DECORATIONS_RENDER = BUILDER
             .define("holderDecorRender", true);
 
+    public static final ModConfigSpec.BooleanValue BLOCKHELP_TOOLTIPS = BUILDER
+            .define("blockhelpTooltips", true);
+
     static final ModConfigSpec SPEC = BUILDER.build();
 }

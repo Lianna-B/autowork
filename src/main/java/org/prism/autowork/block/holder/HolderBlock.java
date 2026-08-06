@@ -49,8 +49,6 @@ public class HolderBlock extends BaseEntityBlock implements BlockHelpProvider {
 
     @Override
     protected void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean movedByPiston) {
-        super.onRemove(state, level, pos, newState, movedByPiston);
-
         if (!level.isClientSide && !state.is(newState.getBlock()) && !movedByPiston) {
             if (level.getBlockEntity(pos) instanceof HolderBlockEntity be) {
                 var stack = be.handler.getStackInSlot(0);
@@ -60,6 +58,8 @@ public class HolderBlock extends BaseEntityBlock implements BlockHelpProvider {
                 }
             }
         }
+
+        super.onRemove(state, level, pos, newState, movedByPiston);
     }
 
     @Override
