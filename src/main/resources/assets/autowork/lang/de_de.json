@@ -1,37 +1,177 @@
 {
   "autowork.configuration.distributorRange": "Scanreichweite des Verteilers",
   "autowork.configuration.crushingHudHelper": "'Brecher'-HUD anzeigen",
-  "autowork.configuration.machinesWorkOnlyOnPulse": "[WIP] Maschinen arbeiten nur mit Redstone-Pulssignal",
   "autowork.configuration.transmitterSignalLifetime": "Maximale Laufzeit von Sendersignalen (in Ticks)",
   "autowork.configuration.newRedstoneDetection": "Neue Logik zur Erkennung von Redstonesignalen. Könnte möglicherweise besser, aber auch fehleranfälliger als die alte sein",
+  "autowork.configuration.bufferHudRender": "",
+  "autowork.configuration.sculkMoverRange": "",
+  "autowork.configuration.holderDecorRender": "",
+  "autowork.configuration.pumpRange": "",
+  "autowork.configuration.chestMinecartLoadChunks": "",
+  "autowork.configuration.sculkCellCapacity": "",
+  "autowork.configuration.sawBlockLimit": "",
+  "autowork.configuration.sawBlockSpeed": "",
+  "autowork.configuration.blockhelpTooltips": "",
 
   "itemGroup.autowork": "Autowork",
 
+  "creativetab.autowork.base_machines": "",
+  
+  "creativetab.autowork.railway": "",
+  "creativetab.autowork.redstone": "",
+  "creativetab.autowork.fluids": "",
+  "creativetab.autowork.misc": "",
+  "creativetab.autowork.ores": "",
+  "creativetab.autowork.experience": "",
+  "creativetab.autowork.farming": "",
+
+  "item.autowork.dye_cartridge.uses": "",
+  "item.autowork.dye_cartridge.dyes": "",
+  "item.autowork.dye_cartridge.insert_dye": "",
+
   "item.autowork.redstone_charge": "Redstonekugel",
   "item.autowork.wrench": "Engländer",
+  "item.autowork.dye_cartridge": "",
+  "item.autowork.template_card": "",
+
+  "block.autowork.can.info.n": "",
+  "block.autowork.can.info.s": "",
+  "block.autowork.can.info.uses": "",
 
   "block.autowork.chute": "Schacht",
+  "block.autowork.harvester": "",
+  "block.autowork.saw": "",
+  "block.autowork.can": "",
+  "block.autowork.canner": "",
+  "block.autowork.opened_can": "",
+  "block.autowork.empty_can": "",
+  "block.autowork.fisher": "",
+  "block.autowork.repair_station": "",
+  "block.autowork.sculk_cell": "",
+  "block.autowork.controlled_catalyst": "",
+  "block.autowork.amethyst_bulb": "",
+  "block.autowork.quartz_bulb": "",
+  "block.autowork.rotator": "",
+  "block.autowork.carrier": "",
+  "block.autowork.templater": "",
+  "block.autowork.modular_carrier": "",
+  "block.autowork.painter": "",
+  "block.autowork.holder": "",
+  "block.autowork.redstone_hub": "",
+  "block.autowork.redstone_coil": "",
   "block.autowork.transmitter": "Sender",
   "block.autowork.andgate": "UND-Gatter",
+  "block.autowork.enricher": "",  
   "block.autowork.filter_chute": "Filterschacht",
   "block.autowork.railway_observer": "Schienen-Beobachter",
   "block.autowork.toggler": "Schalter",
   "block.autowork.fan": "Ventilator",
+  "block.autowork.buffer": "",
   "block.autowork.drill": "Bohrer",
   "block.autowork.placer": "Setzwerk",
+  "block.autowork.pump": "",
   "block.autowork.cartloader": "Lorenbelader",
+  "block.autowork.cartrefiller": "",
+  "block.autowork.buffered_cartloader": "",
   "block.autowork.cartunloader": "Lorenentlader",
+  "block.autowork.buffered_cartunloader": "",
+  "block.autowork.buffered_cartrefiller": "",
   "block.autowork.ticker": "Taktgeber",
   "block.autowork.distributor": "Verteiler",
   "block.autowork.ticker.set": "Takt gesetzt auf: %dt",
   "block.autowork.breeze_collector": "Böensammler",
+  "block.autowork.buffered_breeze_collector": "",
   "block.autowork.extractor": "Zieher",
+  "block.autowork.fluid_extractor": "",
+  "block.autowork.fluid_barrel": "",
+  "block.autowork.precise_observer": "",
+  "block.autowork.sculk_mover": "",
+  "block.autowork.spiller": "",
+  "block.autowork.smelter": "",
   "enchantment.autowork.crushing": "Brecher",
+  "enchantment.autowork.crushing.desc": "",
+  "block.autowork.enriched_lapis_ore": "",
+  "block.autowork.deepslate_enriched_lapis_ore": "",
+  "block.autowork.enriched_redstone_ore": "",
+  "block.autowork.deepslate_enriched_redstone_ore": "",
+  "block.autowork.enriched_copper_ore": "",
+  "block.autowork.deepslate_enriched_copper_ore": "",
+  "block.autowork.enriched_iron_ore": "",
+  "block.autowork.deepslate_enriched_iron_ore": "",
+  "block.autowork.enriched_diamond_ore": "",
+  "block.autowork.deepslate_enriched_diamond_ore": "",
+  "block.autowork.enriched_coal_ore": "",
+  "block.autowork.deepslate_enriched_coal_ore": "",
+  "block.autowork.enriched_emerald_ore": "",
+  "block.autowork.deepslate_enriched_emerald_ore": "",
+  "block.autowork.enriched_gold_ore": "",
+  "block.autowork.deepslate_enriched_gold_ore": "",
+  "block.autowork.enriched_nether_gold_ore": "",
+  "block.autowork.enriched_nether_quartz_ore": "",
 
-  "autowork.crushing_description": "Benötigt die 'Brecher'-Verzauberung",
+  "autowork.recipe.spilling": "",
+  "autowork.recipe.painting": "",
+  "autowork.recipe.enriching": "",
+  "autowork.recipe.smelting": "",
+  "autowork.recipe.required": "",
 
+  "block.autowork.rotator.angle": "",
+
+  "autowork.crushing_description": "",
+  
   "itemhelp.autowork.wrench": "Es ist möglich, dass Maschinen – z. B. aufgrund von Abstürzen – einfrieren. Der Engländer kann sie zurücksetzen",
+  "itemhelp.autowork.template_card": "",
 
+  "item.autowork.template_card.sides": "",
+  "item.autowork.template_card.items": "",
+
+  "blockhelp.autowork.templater.details": "",
+  
+  "blockhelp.autowork.sculk_cell.details": "",
+
+  "blockhelp.autowork.controlled_catalyst.details": "",
+  "blockhelp.autowork.controlled_catalyst.bottom": "",
+
+  "blockhelp.autowork.repair_station.details": "",
+
+  "blockhelp.autowork.amethyst_bulb.back": "",
+  "blockhelp.autowork.amethyst_bulb.details": "",
+
+  "blockhelp.autowork.quartz_bulb.back": "",
+  "blockhelp.autowork.quartz_bulb.details": "",
+
+  "blockhelp.autowork.modular_carrier.front": "",
+  "blockhelp.autowork.modular_carrier.top": "",
+  "blockhelp.autowork.modular_carrier.bottom": "",
+  "blockhelp.autowork.modular_carrier.details": "",
+
+  "blockhelp.autowork.carrier.front": "",
+  "blockhelp.autowork.carrier.details": "",
+
+  "blockhelp.autowork.rotator.front": "",
+  "blockhelp.autowork.rotator.details": "",
+
+  "blockhelp.autowork.redstone_coil.details": "",
+  "blockhelp.autowork.redstone_coil.side": "",
+
+  "blockhelp.autowork.redstone_hub.side": "",
+  "blockhelp.autowork.redstone_hub.front": "",
+  "blockhelp.autowork.redstone_hub.details": "",
+  "blockhelp.autowork.redstone_hub.none_mode": "",
+  "blockhelp.autowork.redstone_hub.input_mode": "",
+  "blockhelp.autowork.redstone_hub.output_mode": "",
+
+  "blockhelp.autowork.holder.details": "",
+  "blockhelp.autowork.holder.bottom": "",
+
+  "blockhelp.autowork.enricher.details": "",
+  "blockhelp.autowork.enricher.front": "",
+
+  "blockhelp.autowork.painter.front": "",
+  "blockhelp.autowork.painter.details": "",
+
+  "blockhelp.warn.critical": "",
+  
   "itemhelp.show_more": "Strg für weitere Informationen",
   "blockhelp.show_more": "Strg/Umschalt für weitere Informationen",
   "blockhelp.direction.west": "West",
@@ -46,8 +186,11 @@
   "blockhelp.direction.back": "Rückseite",
   "blockhelp.multiblock": "Ist eine Multiblock-Struktur",
   "blockhelp.storage": "Hat ein internes Lager",
+  "blockhelp.fluid_storage": "",
   "blockhelp.storage_required": "Benötigt ein externes Lager",
+  "blockhelp.fluid_storage_required": "",
   "blockhelp.no_storage": "Hat KEIN internes Lager",
+  "blockhelp.no_fluid_storage": "",
   "blockhelp.works_when_powered": "Arbeitet bei aktivem Redstonesignal",
   "blockhelp.works_when_unpowered": "Arbeitet bei inaktivem Redstonesignal",
   "blockhelp.power_depends": "Leistung hängt von der Signalstärke ab",
@@ -56,8 +199,18 @@
   "blockhelp.autowork.breeze_collector.front": "Sammelt Gegenstände",
   "blockhelp.autowork.breeze_collector.details": "Saugt bei aktivem Redstonesignal alle Gegenstände ein, die sich vor ihm befinden",
 
+  "blockhelp.autowork.buffer.details": "",
+
+  "blockhelp.autowork.buffered_breeze_collector.details": "",
+
   "blockhelp.autowork.cartloader.top": "Lager mit Güterloren erforderlich",
   "blockhelp.autowork.cartloader.details": "Falls beide Lager angeschlossen sind, kann der Lorenbelader eine Güterlore erzeugen und sie mit dem Inhalt des Lagers an der Rückseite beladen",
+
+  "blockhelp.autowork.cartrefiller.details": "",
+
+  "blockhelp.autowork.buffered_cartloader.side": "",
+  "blockhelp.autowork.buffered_cartloader.details": "",
+  "blockhelp.autowork.buffered_cartunloader.details": "",
 
   "blockhelp.autowork.cart.side": "Seite für ein Schild",
 
@@ -83,6 +236,30 @@
 
   "blockhelp.autowork.extractor.details": "Überträgt Gegenstände aus dem Lager an der Rückseite an das Lager an der Vorderseite",
 
+  "blockhelp.autowork.pump.details": "",
+  "blockhelp.autowork.pump.top": "",
+  "blockhelp.autowork.pump.bottom": "",
+
+  "blockhelp.autowork.sculk_mover.front": "",
+  "blockhelp.autowork.sculk_mover.details": "",
+
+  "blockhelp.autowork.fluid_extractor.front": "",
+  "blockhelp.autowork.fluid_extractor.back": "",
+  "blockhelp.autowork.fluid_extractor.details": "",
+
+  "blockhelp.autowork.smelter.front": "",
+  "blockhelp.autowork.smelter.details": "",
+
+  "blockhelp.autowork.spiller.front": "",
+  "blockhelp.autowork.spiller.details": "",
+
+  "blockhelp.autowork.precise_observer.back": "",
+  "blockhelp.autowork.precise_observer.front": "",
+  "blockhelp.autowork.precise_observer.details": "",
+
+  "blockhelp.autowork.fluid_barrel.capacity": "",
+  "blockhelp.autowork.fluid_barrel.details": "",
+  
   "blockhelp.autowork.fan.front": "Wind",
   "blockhelp.autowork.fan.details": "Ein handelsüblicher Ventilator",
   "blockhelp.autowork.fan.addition": "Rechtsklick zum Wechseln der Windrichtung",
@@ -108,4 +285,16 @@
   "blockhelp.autowork.andgate.front": "Signalausgabe",
   "blockhelp.autowork.andgate.side": "Signaleingabe",
   "blockhelp.autowork.andgate.details": "Gibt ein Redstonesignal aus, falls an beiden Seiten jeweils ein aktives Redstonesignal anliegt"
+
+  "autowork.ponder.canner.header": "",
+  "autowork.ponder.canner.text_1": "",
+  "autowork.ponder.canner.text_2": "",
+  "autowork.ponder.canner.text_3": "",
+  "autowork.ponder.canner.text_4": "",
+
+  "autowork.ponder.saw.header": "",
+  "autowork.ponder.saw.text_1": "",
+  "autowork.ponder.saw.text_2": "",
+  "autowork.ponder.saw.text_3": "",
+  "autowork.ponder.saw.text_4": ""
 }
